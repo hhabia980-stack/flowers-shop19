@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>متجر رَوْنَقُنا</title>
+  <!-- Bootstrap 5 RTL CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+  <!-- Google Fonts - Tajawal -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --bg-lavender: #f4f0f8;      /* بنفسجي فاتح ناعم للأساس والخلفيات */
+      --bg-light-purple: #eae3f2;  /* بنفسجي فاتح للفوتر والـ Elements */
+      --primary-purple: #6a429c;   /* بنفسجي أنيق للروابط والأيقونات */
+      --deep-purple: #432368;      /* بنفسجي داكن جذاب للنصوص */
+      --accent-blue: #3b82f6;      /* أزرق هادئ للمسات التفاعل */
+      --gold-accent: #c5a059;      /* ذهبي فاخر للعناوين والحدود */
+      --gold-hover: #a8843f;       /* ذهبي داكن للتحويم */
+      --text-dark: #2d2335;        /* داكن ناعم مريح للعين */
+      --border-color: #dcd0e8;     /* حدود ناعمة بنفسجية */
+    }
+
+    body {
+      background-color: var(--bg-lavender);
+      color: var(--text-dark);
+      font-family: 'Tajawal', sans-serif;
+    }
+
+    /* --- Buttons --- */
+    .btn-gold {
+      background-color: var(--gold-accent);
+      color: #ffffff;
+      font-weight: 700;
+      border: none;
+      border-radius: 8px;
+      padding: 10px 24px;
+      transition: all 0.3s ease;
+    }
+
+    .btn-gold:hover {
+      background-color: var(--gold-hover);
+      color: #ffffff;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(197, 160, 89, 0.3);
+    }
+
+    /* --- Cards --- */
+    .product-card {
+      background-color: #ffffff;
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(106, 66, 156, 0.12);
+      border-color: var(--gold-accent);
+    }
+
+    .product-title {
+      color: var(--deep-purple);
+      font-weight: 700;
+      font-size: 1.2rem;
+    }
+
+    .product-price {
+      color: var(--gold-accent);
+      font-weight: 800;
+      font-size: 1.25rem;
+    }
+
+    /* --- Footer --- */
+    .custom-footer {
+      background-color: var(--bg-light-purple);
+      color: var(--text-dark);
+      border-top: 1px solid var(--border-color);
+    }
+
+    .footer-logo-title {
+      font-size: 2.2rem;
+      letter-spacing: 2px;
+      color: var(--deep-purple);
+      font-weight: 800;
+      line-height: 1;
+    }
+
+    .logo-divider {
+      width: 140px;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--gold-accent), transparent);
+      margin: 10px auto;
+    }
+
+    .footer-heading {
+      color: var(--gold-accent);
+      font-weight: 800;
+      font-size: 1.3rem;
+    }
+
+    .footer-link {
+      color: var(--deep-purple);
+      text-decoration: none;
+      font-weight: 500;
+      transition: all 0.2s ease;
+    }
+
+    .footer-link:hover {
+      color: var(--gold-accent);
+    }
+
+    .bottom-border {
+      border-top: 1px solid var(--border-color);
+    }
+
+    .social-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: #ffffff;
+      color: var(--primary-purple);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      font-size: 1.2rem;
+      transition: all 0.3s ease;
+      border: 1px solid var(--border-color);
+    }
+
+    .social-icon:hover {
+      background-color: var(--gold-accent);
+      color: #ffffff;
+      transform: translateY(-3px);
+    }
+  </style>
+</head>
+<body>
+
+
+
+  <!-- Footer Start -->
+  <footer class="custom-footer pt-5 pb-4 text-center">
+    <div class="container">
+      
+      <!-- Logo Section -->
+      <div class="mb-4">
+        <div class="footer-logo-title">رَوْنَقُنا</div>
+        <div class="logo-divider"></div>
+        <div class="small text-uppercase tracking-wider" style="color: var(--primary-purple); font-weight: 600; font-size: 0.85rem;">RAWNAQUNA STORE</div>
+      </div>
+
+      <!-- Slogan -->
+      <p class="mb-4 fs-5" style="color: var(--deep-purple); font-weight: 500;">أناقة تليق بكِ 🌸💜💙✨</p>
+
+      <!-- Social Media Links -->
+      <div class="d-flex justify-content-center gap-3 mb-4">
+        <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+        <a href="https://wa.me/201024800659" class="social-icon"><i class="bi bi-whatsapp"></i></a>
+      </div>
+
+      <!-- Contact Us -->
+      <div class="mb-5">
+        <h5 class="footer-heading mb-3">تواصل معنا</h5>
+        
+        <p class="mb-2 fs-6">
+          واتساب &nbsp; 
+          <a href="https://wa.me/201024800659" class="footer-link" dir="ltr">+20 1024800659</a>
+        </p>
+        
+        <p class="mb-0 fs-6">
+          فيسبوك &nbsp; 
+          <a href="#" class="footer-link">صفحتنا على فيسبوك</a>
+        </p>
+      </div>
+
+      <!-- Copyright -->
+      <div class="bottom-border pt-4 mt-4">
+        <p class="small text-muted mb-0">
+          © 2026 متجر رونقنا — جميع الحقوق محفوظة
+        </p>
+      </div>
+
+    </div>
+  </footer>
+  <!-- Footer End -->
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

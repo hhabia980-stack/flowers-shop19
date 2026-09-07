@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>رَوْنَقُنا | متجر الورود</title>
+
+    <!-- صورة الموقع بجانب الـ Title -->
+    <link rel="icon" type="image/png" href="flooer/9bcabadf15bb57733aebf1a7ebd0fb52.jpg">
+
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- Bootstrap 5 RTL CSS -->
+<link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css">
+
+<!-- Bootstrap Icons -->
+<link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<!-- Google Font - Tajawal -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap"
+      rel="stylesheet">
+  <style>
+    .cart-icon {
+    position: relative;
+    color: #6d4b7e;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.cart-icon span {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+
+    background: #d4af37;
+    color: white;
+
+    width: 18px;
+    height: 18px;
+
+    border-radius: 50%;
+
+    font-size: 11px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  </style>
+  
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-white shadow-sm">
+
+  <div class="container">
+
+    <!-- Logo -->
+    <a class="navbar-brand fw-bold d-flex align-items-center"
+       href="index.html"
+       style="color: #A47CC7; font-size: 24px;">
+
+      <img src="flooer/WhatsApp Image 2026-08-31 at 2.00.32 AM.jpeg"
+           alt="رونق للورود"
+           width="50"
+           height="50"
+           class="me-2"
+           style="object-fit: contain;">
+
+      <span  >🌹رونقنااا</span>
+    </a>
+
+
+    <!-- Button Mobile -->
+    <button class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="فتح القائمة"
+            style="
+              background-color: #D4AF37;
+              border: none;
+            ">
+
+      <span class="navbar-toggler-icon"></span>
+
+    </button>
+
+
+    <!-- Navbar Content -->
+    <div class="collapse navbar-collapse"
+         id="navbarSupportedContent">
+
+
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+
+        <!-- Home -->
+        <li class="nav-item">
+
+          <a class="nav-link active"
+             aria-current="page"
+             href="index.html"
+             style="color: #6F4F8F;">
+
+            الرئيسية
+
+          </a>
+
+        </li>
+
+
+        <!-- Flowers Dropdown -->
+        <li class="nav-item dropdown">
+
+          <a class="nav-link dropdown-toggle"
+             href="#"
+             role="button"
+             data-bs-toggle="dropdown"
+             aria-expanded="false"
+             style="color: #6F4F8F;">
+
+            الورود 🌹
+
+          </a>
+
+
+          <ul class="dropdown-menu"
+              style="
+                background-color: #F1E9F8;
+                border: 1px solid #D4AF37;
+              ">
+
+            <li>
+
+              <a class="dropdown-item"
+                 href="prible.html"
+                 style="color: #6F4F8F;">
+
+                💜 ورد بيربل
+
+              </a>
+
+            </li>
+
+
+            <li>
+
+              <a class="dropdown-item"
+                 href="pink.html"
+                 style="color: #6F4F8F;">
+
+                🩷 ورد بينك
+
+              </a>
+
+            </li>
+
+
+            <li>
+
+              <hr class="dropdown-divider"
+                  style="border-color: #D4AF37;">
+
+            </li>
+
+
+            <li>
+
+              <a class="dropdown-item "
+                 href="red.html"
+                 style="color: #A47CC7;">
+
+                🌹 ورد احمر
+
+              </a>
+
+            </li>
+
+          </ul>
+
+        </li>
+
+
+        <!-- Gifts -->
+        <li class="nav-item">
+
+          <a class="nav-link"
+             href="offers.html"
+             style="color: #6F4F8F;">
+
+            🎁 العروض
+
+          </a>
+
+        </li>
+
+
+
+        <!-- Contact -->
+        <li class="nav-item">
+
+          <a class="nav-link"
+             href="footer.html"
+             style="color: #6F4F8F;">
+
+            تواصل معنا
+
+          </a>
+
+        </li>
+
+      </ul>
+
+
+              
+        <!-- Orders -->
+        <li class="nav-item">
+
+         
+          <a href="cart.html" class="cart-icon">
+    <i class="fa-solid fa-cart-shopping"></i>
+    
+</a>
+
+        </li>
+
+
+      <!-- Search -->
+      <form class="d-flex"
+            role="search">
+
+        <input class="form-control me-2"
+               type="search"
+               placeholder="ابحثي عن ورد..."
+               aria-label="بحث"
+               style="
+                 border: 1px solid #D4AF37;
+                 background-color: #FFFFFF;
+               ">
+
+        <button class="btn"
+                type="submit"
+                style="
+                  background-color: #A47CC7;
+                  color: #FFFFFF;
+                  border: 1px solid #D4AF37;
+                ">
+
+          بحث 🔍
+
+        </button>
+
+        
+      </form>
+
+
+    </div>
+
+  </div>
+
+</nav>
+<!-- End Navbar -->
+
+
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>تواصل معنا | رونقنا</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <style>
+
+        body {
+            background-color: #FAF7FF;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Contact Section */
+        .contact-section {
+            padding: 70px 0;
+        }
+
+        .contact-title {
+            color: #7C5AA6;
+            font-weight: bold;
+        }
+
+        .gold {
+            color: #D4AF37;
+        }
+
+        /* Cards */
+        .contact-card {
+            background-color: #FFFFFF;
+            border: 1px solid #E5D7F5;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 5px 20px rgba(124, 90, 166, 0.08);
+        }
+
+        /* Image */
+        .contact-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 18px;
+            border: 2px solid #D4AF37;
+        }
+
+        /* Icons */
+        .contact-icon {
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            background-color: #EDE3F7;
+            color: #D4AF37;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 23px;
+            flex-shrink: 0;
+        }
+
+        /* Form */
+        .form-control {
+            border: 1px solid #E5D7F5;
+            border-radius: 12px;
+            padding: 12px;
+        }
+
+        .form-control:focus {
+            border-color: #B79AD6;
+            box-shadow: 0 0 0 0.2rem rgba(183, 154, 214, 0.15);
+        }
+
+        /* Button */
+        .send-btn {
+            background-color: #7C5AA6;
+            color: white;
+            border: 2px solid #D4AF37;
+            border-radius: 12px;
+            padding: 12px 35px;
+        }
+
+        .send-btn:hover {
+            background-color: #6B4B91;
+            color: white;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    
+
+
+
+
+
+
+<!-- ================= Contact ================= -->
+
+<section class="contact-section">
+
+    <div class="container">
+
+        <!-- Title -->
+
+        <div class="text-center mb-5">
+
+            <h1 class="contact-title">
+                تواصل معنا
+            </h1>
+
+            <p class="gold">
+                يسعدنا دائمًا أن نسمع منكِ 💜
+            </p>
+
+        </div>
+
+
+        <div class="row g-4">
+
+
+            <!-- ================= Image + Info ================= -->
+
+            <div class="col-lg-5">
+
+                <div class="contact-card h-100">
+
+                    <img src="assets/images/contact-flowers.jpg"
+                         alt="رونقنا للورود"
+                         class="contact-image">
+
+
+                    <h3 class="contact-title text-center mt-4 mb-3">
+                        يسعدنا تواصلك معنا 🌷
+                    </h3>
+
+
+                    <p class="text-center"
+                       style="color:#777; line-height:2;">
+
+                        لو عندك أي استفسار أو محتاجة مساعدة
+                        في اختيار الهدية المناسبة،
+                        تواصلي معنا وسنكون سعداء بمساعدتكِ.
+
+                    </p>
+
+
+                    <!-- Phone -->
+
+                    <div class="d-flex align-items-center mb-3">
+
+                        <div class="contact-icon me-3">
+                            📞
+                        </div>
+
+                        <div>
+
+                            <small class="gold">
+                                الهاتف
+                            </small>
+
+                            <p class="mb-0">
+                                +20 1284453186
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Email -->
+
+                    <div class="d-flex align-items-center mb-3">
+
+                        <div class="contact-icon me-3">
+                            ✉️
+                        </div>
+
+                        <div>
+
+                            <small class="gold">
+                                البريد الإلكتروني
+                            </small>
+
+                            <p class="mb-0">
+                                info@rawnaq.com
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Location -->
+
+                    <div class="d-flex align-items-center">
+
+                        <div class="contact-icon me-3">
+                            📍
+                        </div>
+
+                        <div>
+
+                            <small class="gold">
+                                العنوان
+                            </small>
+
+                            <p class="mb-0">
+                                القاهرة، مصر
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ================= Form ================= -->
+
+            <div class="col-lg-7">
+
+                <div class="contact-card h-100">
+
+                    <h3 class="contact-title mb-4">
+                        أرسلي لنا رسالة 💌
+                    </h3>
+
+
+                    <form>
+
+
+                        <!-- Name -->
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                الاسم
+                            </label>
+
+                            <input type="text"
+                                   class="form-control"
+                                   placeholder="اكتبي اسمك"
+                                   required>
+
+                        </div>
+
+
+                        <!-- Email -->
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                البريد الإلكتروني
+                            </label>
+
+                            <input type="email"
+                                   class="form-control"
+                                   placeholder="example@email.com"
+                                   required>
+
+                        </div>
+
+
+                        <!-- Phone -->
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                رقم الهاتف
+                            </label>
+
+                            <input type="tel"
+                                   class="form-control"
+                                   placeholder="01xxxxxxxxx">
+
+                        </div>
+
+
+                        <!-- Subject -->
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                الموضوع
+                            </label>
+
+                            <input type="text"
+                                   class="form-control"
+                                   placeholder="موضوع الرسالة">
+
+                        </div>
+
+
+                        <!-- Message -->
+
+                        <div class="mb-4">
+
+                            <label class="form-label">
+                                الرسالة
+                            </label>
+
+                            <textarea class="form-control"
+                                      rows="5"
+                                      placeholder="اكتبي رسالتك هنا..."
+                                      required></textarea>
+
+                        </div>
+
+
+                        <!-- Button -->
+
+                        <button type="submit"
+                                class="send-btn">
+
+                            إرسال الرسالة 💜
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= Footer ================= -->
+
+<footer class="text-center text-lg-start"
+        style="background-color:#2563EB; color:#fff;">
+
+
+    <!-- Social -->
+
+    <section class="d-flex justify-content-center p-4 border-bottom"
+             style="border-color:#D4AF37 !important;">
+
+        <span style="color:#fff;">
+            تابعي أحدث عروضنا وتواصلي معنا عبر مواقع التواصل الاجتماعي 🌹
+        </span>
+
+    </section>
+
+
+    <!-- Footer Content -->
+
+    <section>
+
+        <div class="container text-center text-md-start mt-5">
+
+            <div class="row mt-3">
+
+
+                <!-- About -->
+
+                <div class="col-md-4 mx-auto mb-4">
+
+                    <h6 class="fw-bold mb-4"
+                        style="color:#D4AF37;">
+
+                        رونقنا للورود
+
+                    </h6>
+
+                    <p style="color:#fff; line-height:2;">
+
+                        نقدم لكِ أجمل باقات الورود والهدايا
+                        بتصاميم راقية ولمسات مميزة تناسب
+                        جميع مناسباتكِ.
+
+                    </p>
+
+                </div>
+
+
+                <!-- Links -->
+
+                <div class="col-md-3 mx-auto mb-4">
+
+                    <h6 class="fw-bold mb-4"
+                        style="color:#D4AF37;">
+
+                        روابط مهمة
+
+                    </h6>
+
+                    <p>
+                        <a href="index.html"
+                           class="text-decoration-none"
+                           style="color:#fff;">
+                            الرئيسية
+                        </a>
+                    </p>
+
+                    <p>
+                        <a href="about.html"
+                           class="text-decoration-none"
+                           style="color:#fff;">
+                            من نحن
+                        </a>
+                    </p>
+
+                    <p>
+                        <a href="orders.html"
+                           class="text-decoration-none"
+                           style="color:#fff;">
+                            الطلبات
+                        </a>
+                    </p>
+
+                    <p>
+                        <a href="contact.html"
+                           class="text-decoration-none"
+                           style="color:#fff;">
+                            تواصل معنا
+                        </a>
+                    </p>
+
+                </div>
+
+
+                <!-- Contact -->
+
+                <div class="col-md-4 mx-auto mb-4">
+
+                    <h6 class="fw-bold mb-4"
+                        style="color:#D4AF37;">
+
+                        تواصلي معنا
+
+                    </h6>
+
+                    <p style="color:#fff;">
+                        📍 القاهرة، مصر
+                    </p>
+
+                    <p style="color:#fff;">
+                        ✉️ info@rawnaq.com
+                    </p>
+
+                    <p style="color:#fff;">
+                        📞 +20 1020297616
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Copyright -->
+
+    <div class="text-center p-4"
+         style="background-color:#7C3AED; color:#fff;">
+
+        © 2026
+
+        <span style="color:#D4AF37; font-weight:bold;">
+            رونقنا
+        </span>
+
+        - جميع الحقوق محفوظة
+
+    </div>
+
+</footer>
+
+
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

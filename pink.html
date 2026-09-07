@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <title>رَوْنَقُنا | متجر الورود</title>
+
+    <!-- صورة الموقع بجانب الـ Title -->
+    <link rel="icon" type="image/png" href="flooer/9bcabadf15bb57733aebf1a7ebd0fb52.jpg">
+
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- Bootstrap 5 RTL CSS -->
+<link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css">
+
+<!-- Bootstrap Icons -->
+<link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<!-- Google Font - Tajawal -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap"
+      rel="stylesheet">
+  <style>
+    .cart-icon {
+    position: relative;
+    color: #6d4b7e;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.cart-icon span {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+
+    background: #d4af37;
+    color: white;
+
+    width: 18px;
+    height: 18px;
+
+    border-radius: 50%;
+
+    font-size: 11px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  </style>
+  
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-white shadow-sm">
+
+  <div class="container">
+
+    <!-- Logo -->
+    <a class="navbar-brand fw-bold d-flex align-items-center"
+       href="index.html"
+       style="color: #A47CC7; font-size: 24px;">
+
+      <img src="flooer/WhatsApp Image 2026-08-31 at 2.00.32 AM.jpeg"
+           alt="رونق للورود"
+           width="50"
+           height="50"
+           class="me-2"
+           style="object-fit: contain;">
+
+      <span  >🌹رونقنااا</span>
+    </a>
+
+
+    <!-- Button Mobile -->
+    <button class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="فتح القائمة"
+            style="
+              background-color: #D4AF37;
+              border: none;
+            ">
+
+      <span class="navbar-toggler-icon"></span>
+
+    </button>
+
+
+    <!-- Navbar Content -->
+    <div class="collapse navbar-collapse"
+         id="navbarSupportedContent">
+
+
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+
+        <!-- Home -->
+        <li class="nav-item">
+
+          <a class="nav-link active"
+             aria-current="page"
+             href="index.html"
+             style="color: #6F4F8F;">
+
+            الرئيسية
+
+          </a>
+
+        </li>
+
+
+        <!-- Flowers Dropdown -->
+        <li class="nav-item dropdown">
+
+          <a class="nav-link dropdown-toggle"
+             href="#"
+             role="button"
+             data-bs-toggle="dropdown"
+             aria-expanded="false"
+             style="color: #6F4F8F;">
+
+            الورود 🌹
+
+          </a>
+
+
+          <ul class="dropdown-menu"
+              style="
+                background-color: #F1E9F8;
+                border: 1px solid #D4AF37;
+              ">
+
+            <li>
+
+              <a class="dropdown-item"
+                 href="purple.html"
+                 style="color: #6F4F8F;">
+
+                💜 ورد بيربل
+
+              </a>
+
+            </li>
+
+
+            <li>
+
+              <a class="dropdown-item"
+                 href="pink.html"
+                 style="color: #6F4F8F;">
+
+                🩷 ورد بينك
+
+              </a>
+
+            </li>
+
+
+            <li>
+
+              <hr class="dropdown-divider"
+                  style="border-color: #D4AF37;">
+
+            </li>
+
+
+            <li>
+
+              <a class="dropdown-item "
+                 href="red.html"
+                 style="color: #A47CC7;">
+
+                🌹 ورد احمر
+
+              </a>
+
+            </li>
+
+          </ul>
+
+        </li>
+
+
+        <!-- Gifts -->
+        <li class="nav-item">
+
+          <a class="nav-link"
+             href="offers.html"
+             style="color: #6F4F8F;">
+
+            🎁 العروض
+
+          </a>
+
+        </li>
+
+
+
+        <!-- Contact -->
+        <li class="nav-item">
+
+          <a class="nav-link"
+             href="footer.html"
+             style="color: #6F4F8F;">
+
+            تواصل معنا
+
+          </a>
+
+        </li>
+
+      </ul>
+
+
+              
+        <!-- Orders -->
+        <li class="nav-item">
+
+         
+          <a href="cart.html" class="cart-icon">
+    <i class="fa-solid fa-cart-shopping"></i>
+    
+</a>
+
+        </li>
+
+
+      <!-- Search -->
+      <form class="d-flex"
+            role="search">
+
+        <input class="form-control me-2"
+               type="search"
+               placeholder="ابحثي عن ورد..."
+               aria-label="بحث"
+               style="
+                 border: 1px solid #D4AF37;
+                 background-color: #FFFFFF;
+               ">
+
+        <button class="btn"
+                type="submit"
+                style="
+                  background-color: #A47CC7;
+                  color: #FFFFFF;
+                  border: 1px solid #D4AF37;
+                ">
+
+          بحث 🔍
+
+        </button>
+
+        
+      </form>
+
+
+    </div>
+
+  </div>
+
+</nav>
+<!-- End Navbar -->
+
+
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>الورود البينك 💗</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #fff5f8;
+            font-family: Arial, sans-serif;
+        }
+
+        .page-title {
+            color: #d14d72;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .rose-card {
+            border: none;
+            border-radius: 20px;
+            overflow: hidden;
+            transition: 0.3s;
+            background-color: white;
+            box-shadow: 0 5px 20px rgba(200, 70, 110, 0.10);
+        }
+
+        .rose-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 25px rgba(209, 77, 114, 0.25);
+        }
+
+        .rose-card img {
+            height: 260px;
+            object-fit: cover;
+        }
+
+        .rose-card h5 {
+            color: #d14d72;
+            font-weight: bold;
+        }
+
+        .price {
+            color: #c93668;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .buy-btn {
+            background-color: #d14d72;
+            color: white;
+            border-radius: 25px;
+            padding: 10px 25px;
+            border: none;
+        }
+
+        .buy-btn:hover {
+            background-color: #ad3156;
+            color: white;
+        }
+
+        .details {
+            color: #777;
+            font-size: 14px;
+            min-height: 45px;
+        }
+    </style>
+</head>
+<script>
+function addToCart(id, name, price, image) {
+
+    let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+    let existingProduct = cart.find(product => product.id === id);
+
+    if (existingProduct) {
+        existingProduct.quantity++;
+    } else {
+        cart.push({
+            id: id,
+            name: name,
+            price: Number(price),
+            image: image,
+            quantity: 1
+        });
+    }
+
+    localStorage.setItem("cart", JSON.stringify(cart));
+
+    alert("تمت إضافة المنتج إلى العربة 🛒");
+}
+</script>
+<body>
+
+    <div class="container py-5">
+
+        <h1 class="text-center page-title">
+            💗 باقات الورود البينك 💗
+        </h1>
+
+        <p class="text-center text-muted mb-5">
+            اختاري باقتك المفضلة من أجمل الورود البينك
+        </p>
+
+        <div class="row g-4">
+
+          <!-- Card 1 -->
+<div class="col-lg-4 col-md-6">
+    <div class="card rose-card h-100">
+
+        <img src="flooer/825b38eb4264ac95f881a3f46f8a7eb2.jpg"
+             class="card-img-top"
+             alt="باقة البينك الرومانسية">
+
+        <div class="card-body text-center">
+
+            <h5>باقة البينك الرومانسية 💗</h5>
+
+            <p class="details">
+                باقة ناعمة من الورود البينك بتنسيق رومانسي وأنيق.
+            </p>
+
+            <p class="price">500 جنيه</p>
+
+            <a href="confirm.html?product=%D8%A8%D8%A7%D9%82%D8%A9%20%D8%A7%D9%84%D8%A8%D9%8A%D9%86%D9%83%20%D8%A7%D9%84%D8%B1%D9%88%D9%85%D8%A7%D9%86%D8%B3%D9%8A%D8%A9&price=500&image=flooer%2F825b38eb4264ac95f881a3f46f8a7eb2.jpg"
+               class="btn buy-btn">
+                اشتري الآن
+            </a>
+
+            <button class="btn buy-btn"
+                    onclick="addToCart(111, 'باقة البينك الرومانسية', 500, 'flooer/825b38eb4264ac95f881a3f46f8a7eb2.jpg')">
+                اضف الي العربه 🛒
+            </button>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- Card 2 -->
+<div class="col-lg-4 col-md-6">
+    <div class="card rose-card h-100">
+
+        <img src="flooer/03d5e2b986f2f2ea27761d6c3f408a04.jpg"
+             class="card-img-top"
+             alt="الباقة البينك الكلاسيك">
+
+        <div class="card-body text-center">
+
+            <h5>الباقة البينك الكلاسيك 🌸</h5>
+
+            <p class="details">
+                ورود بينك بتصميم كلاسيكي بسيط يناسب جميع المناسبات.
+            </p>
+
+            <p class="price">600 جنيه</p>
+
+            <a href="confirm.html?product=%D8%A7%D9%84%D8%A8%D8%A7%D9%82%D8%A9%20%D8%A7%D9%84%D8%A8%D9%8A%D9%86%D9%83%20%D8%A7%D9%84%D9%83%D9%84%D8%A7%D8%B3%D9%8A%D9%83&price=600&image=flooer%2F03d5e2b986f2f2ea27761d6c3f408a04.jpg"
+               class="btn buy-btn">
+                اشتري الآن
+            </a>
+
+            <button class="btn buy-btn"
+                    onclick="addToCart(112, 'الباقة البينك الكلاسيك', 600, 'flooer/03d5e2b986f2f2ea27761d6c3f408a04.jpg')">
+                اضف الي العربه 🛒
+            </button>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- Card 3 -->
+<div class="col-lg-4 col-md-6">
+    <div class="card rose-card h-100">
+
+        <img src="flooer/e437c41982617260ccfb9a2f79254625.jpg"
+             class="card-img-top"
+             alt="الباقة البينك الفخمة">
+
+        <div class="card-body text-center">
+
+            <h5>الباقة البينك الفخمة 👑</h5>
+
+            <p class="details">
+                باقة كبيرة وفخمة من الورود البينك لمحبي الهدايا المميزة.
+            </p>
+
+            <p class="price">850 جنيه</p>
+
+            <a href="confirm.html?product=%D8%A7%D9%84%D8%A8%D8%A7%D9%82%D8%A9%20%D8%A7%D9%84%D8%A8%D9%8A%D9%86%D9%83%20%D8%A7%D9%84%D9%81%D8%AE%D9%85%D8%A9&price=850&image=flooer%2Fe437c41982617260ccfb9a2f79254625.jpg"
+               class="btn buy-btn">
+                اشتري الآن
+            </a>
+
+            <button class="btn buy-btn"
+                    onclick="addToCart(113, 'الباقة البينك الفخمة', 850, 'flooer/e437c41982617260ccfb9a2f79254625.jpg')">
+                اضف الي العربه 🛒
+            </button>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- Card 4 -->
+<div class="col-lg-4 col-md-6">
+    <div class="card rose-card h-100">
+
+        <img src="flooer/c0ea129dd4e5553b144371461d82619d.jpg"
+             class="card-img-top"
+             alt="باقة 12 وردة بينك">
+
+        <div class="card-body text-center">
+
+            <h5>باقة 12 وردة بينك 💗</h5>
+
+            <p class="details">
+                12 وردة بينك طبيعية مع تغليف أنيق وجذاب.
+            </p>
+
+            <p class="price">550 جنيه</p>
+
+            <a href="confirm.html?product=%D8%A8%D8%A7%D9%82%D8%A9%2012%20%D9%88%D8%B1%D8%AF%D8%A9%20%D8%A8%D9%8A%D9%86%D9%83&price=550&image=flooer%2Fc0ea129dd4e5553b144371461d82619d.jpg"
+               class="btn buy-btn">
+                اشتري الآن
+            </a>
+
+            <button class="btn buy-btn"
+                    onclick="addToCart(114, 'باقة 12 وردة بينك', 550, 'flooer/c0ea129dd4e5553b144371461d82619d.jpg')">
+                اضف الي العربه 🛒
+            </button>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- Card 5 -->
+<div class="col-lg-4 col-md-6">
+    <div class="card rose-card h-100">
+
+        <img src="flooer/9cf15b74d13095e8e44b57c891b94c92.jpg"
+             class="card-img-top"
+             alt="البوكيه البينك الصغير">
+
+        <div class="card-body text-center">
+
+            <h5>البوكيه البينك الصغير 🌷</h5>
+
+            <p class="details">
+                بوكيه صغير وناعم مناسب للهدايا والمناسبات البسيطة.
+            </p>
+
+            <p class="price">400 جنيه</p>
+
+            <a href="confirm.html?product=%D8%A7%D9%84%D8%A8%D9%88%D9%83%D9%8A%D9%87%20%D8%A7%D9%84%D8%A8%D9%8A%D9%86%D9%83%20%D8%A7%D9%84%D8%B5%D8%BA%D9%8A%D8%B1&price=400&image=flooer%2F9cf15b74d13095e8e44b57c891b94c92.jpg"
+               class="btn buy-btn">
+                اشتري الآن
+            </a>
+
+            <button class="btn buy-btn"
+                    onclick="addToCart(115, 'البوكيه البينك الصغير', 400, 'flooer/9cf15b74d13095e8e44b57c891b94c92.jpg')">
+                اضف الي العربه 🛒
+            </button>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- Card 6 -->
+<div class="col-lg-4 col-md-6">
+    <div class="card rose-card h-100">
+
+        <img src="flooer/644bf12275f9085ef3fd92d733685eda.jpg"
+             class="card-img-top"
+             alt="الباقة البينك الملكية">
+
+        <div class="card-body text-center">
+
+            <h5>الباقة البينك الملكية 👑</h5>
+
+            <p class="details">
+                تصميم ملكي راقي من أجمل الورود البينك.
+            </p>
+
+            <p class="price">950 جنيه</p>
+
+            <a href="confirm.html?product=%D8%A7%D9%84%D8%A8%D8%A7%D9%82%D8%A9%20%D8%A7%D9%84%D8%A8%D9%8A%D9%86%D9%83%20%D8%A7%D9%84%D9%85%D9%84%D9%83%D9%8A%D8%A9&price=950&image=flooer%2F644bf12275f9085ef3fd92d733685eda.jpg"
+               class="btn buy-btn">
+                اشتري الآن
+            </a>
+
+            <button class="btn buy-btn"
+                    onclick="addToCart(116, 'الباقة البينك الملكية', 950, 'flooer/644bf12275f9085ef3fd92d733685eda.jpg')">
+                اضف الي العربه 🛒
+            </button>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- Card 7 -->
+<div class="col-lg-4 col-md-6">
+    <div class="card rose-card h-100">
+
+        <img src="flooer/ddb28b42ab7d4e8da9bde75f82999c2a.jpg"
+             class="card-img-top"
+             alt="باقة 24 وردة بينك في أحمر">
+
+        <div class="card-body text-center">
+
+            <h5>باقة 24 وردة بينك في أحمر 💗</h5>
+
+            <p class="details">
+                24 وردة بينك في باقة كبيرة ومميزة.
+            </p>
+
+            <p class="price">1000 جنيه</p>
+
+            <a href="confirm.html?product=%D8%A8%D8%A7%D9%82%D8%A9%2024%20%D9%88%D8%B1%D8%AF%D8%A9%20%D8%A8%D9%8A%D9%86%D9%83%20%D9%81%D9%8A%20%D8%A3%D8%AD%D9%85%D8%B1&price=1000&image=flooer%2Fddb28b42ab7d4e8da9bde75f82999c2a.jpg"
+               class="btn buy-btn">
+                اشتري الآن
+            </a>
+
+            <button class="btn buy-btn"
+                    onclick="addToCart(117, 'باقة 24 وردة بينك في أحمر', 1000, 'flooer/ddb28b42ab7d4e8da9bde75f82999c2a.jpg')">
+                اضف الي العربه 🛒
+            </button>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- Card 8 -->
+<div class="col-lg-4 col-md-6">
+    <div class="card rose-card h-100">
+
+        <img src="flooer/23a93f5cbd2301dc666f7dc71e5763ae.jpg"
+             class="card-img-top"
+             alt="البوكيه البينك الفاخر">
+
+        <div class="card-body text-center">
+
+            <h5>البوكيه البينك الفاخر ✨</h5>
+
+            <p class="details">
+                ورود بينك فاخرة مع تغليف أنيق ومميز.
+            </p>
+
+            <p class="price">1200 جنيه</p>
+
+            <a href="confirm.html?product=%D8%A7%D9%84%D8%A8%D9%88%D9%83%D9%8A%D9%87%20%D8%A7%D9%84%D8%A8%D9%8A%D9%86%D9%83%20%D8%A7%D9%84%D9%81%D8%A7%D8%AE%D8%B1&price=1200&image=flooer%2F23a93f5cbd2301dc666f7dc71e5763ae.jpg"
+               class="btn buy-btn">
+                اشتري الآن
+            </a>
+
+            <button class="btn buy-btn"
+                    onclick="addToCart(118, 'البوكيه البينك الفاخر', 1200, 'flooer/23a93f5cbd2301dc666f7dc71e5763ae.jpg')">
+                اضف الي العربه 🛒
+            </button>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- Card 9 -->
+<div class="col-lg-4 col-md-6">
+    <div class="card rose-card h-100">
+
+        <img src="flooer/baa38c7420eec03d471a924b41e8b02c.jpg"
+             class="card-img-top"
+             alt="باقة البينك 6 ورود">
+
+        <div class="card-body text-center">
+
+            <h5>باقة البينك 6 ورود 💕</h5>
+
+            <p class="details">
+                باقة مميزة من الورود البينك بتصميم جذاب وناعم.
+            </p>
+
+            <p class="price">350 جنيه</p>
+
+            <a href="confirm.html?product=%D8%A8%D8%A7%D9%82%D8%A9%20%D8%A7%D9%84%D8%A8%D9%8A%D9%86%D9%83%206%20%D9%88%D8%B1%D9%88%D8%AF&price=350&image=flooer%2Fbaa38c7420eec03d471a924b41e8b02c.jpg"
+               class="btn buy-btn">
+                اشتري الآن
+            </a>
+
+            <button class="btn buy-btn"
+                    onclick="addToCart(119, 'باقة البينك 6 ورود', 350, 'flooer/baa38c7420eec03d471a924b41e8b02c.jpg')">
+                اضف الي العربه 🛒
+            </button>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- Card 10 -->
+<div class="col-lg-4 col-md-6">
+    <div class="card rose-card h-100">
+
+        <img src="flooer/a878959367784e00a48fc48cdb2fcacf.jpg"
+             class="card-img-top"
+             alt="باقة البينك الكبيرة">
+
+        <div class="card-body text-center">
+
+            <h5>باقة البينك الكبيرة 🌹</h5>
+
+            <p class="details">
+                باقة كبيرة من الورود البينك لتقديم هدية مميزة ومبهجة.
+            </p>
+
+            <p class="price">1300 جنيه</p>
+
+            <a href="confirm.html?product=%D8%A8%D8%A7%D9%82%D8%A9%20%D8%A7%D9%84%D8%A8%D9%8A%D9%86%D9%83%20%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1%D8%A9&price=1300&image=flooer%2Fa878959367784e00a48fc48cdb2fcacf.jpg"
+               class="btn buy-btn">
+                اشتري الآن
+            </a>
+
+            <button class="btn buy-btn"
+                    onclick="addToCart(120, 'باقة البينك الكبيرة', 1300, 'flooer/a878959367784e00a48fc48cdb2fcacf.jpg')">
+                اضف الي العربه 🛒
+            </button>
+
+        </div>
+    </div>
+</div>
+<!-- ================= FOOTER ================= -->
+
+<style>
+
+    :root {
+        --light-purple: #f3edf8;
+        --soft-purple: #e6d9f0;
+        --purple: #76538f;
+        --dark-purple: #4d3265;
+        --gold: #c9a24d;
+        --gold-dark: #a98232;
+        --text: #3f3547;
+    }
+
+    .custom-footer {
+        background: linear-gradient(
+            135deg,
+            var(--light-purple),
+            var(--soft-purple)
+        );
+
+        color: var(--text);
+        border-top: 2px solid var(--gold);
+        padding-top: 55px;
+    }
+
+    /* Logo */
+    .footer-logo-title {
+        font-size: 2.5rem;
+        font-weight: 800;
+        color: var(--dark-purple);
+        letter-spacing: 2px;
+    }
+
+    .logo-divider {
+        width: 150px;
+        height: 3px;
+
+        background: linear-gradient(
+            to right,
+            transparent,
+            var(--gold),
+            transparent
+        );
+
+        margin: 12px auto;
+    }
+
+    .store-name {
+        color: var(--purple);
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+
+    /* Slogan */
+    .footer-slogan {
+        color: var(--dark-purple);
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    /* Social Icons */
+    .social-icon {
+        width: 48px;
+        height: 48px;
+
+        border-radius: 50%;
+
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+
+        background-color: white;
+        color: var(--purple);
+
+        border: 2px solid var(--gold);
+
+        text-decoration: none;
+
+        font-size: 1.35rem;
+
+        transition: all 0.3s ease;
+    }
+
+    .social-icon:hover {
+        background-color: var(--gold);
+        color: white;
+
+        transform: translateY(-5px);
+
+        box-shadow: 0 7px 15px rgba(201, 162, 77, 0.3);
+    }
+
+    /* Footer Headings */
+    .footer-heading {
+        color: var(--gold-dark);
+        font-weight: 800;
+        font-size: 1.3rem;
+    }
+
+    /* Links */
+    .footer-link {
+        color: var(--dark-purple);
+        text-decoration: none;
+        font-weight: 600;
+
+        transition: 0.3s;
+    }
+
+    .footer-link:hover {
+        color: var(--gold-dark);
+    }
+
+    /* Bottom */
+    .bottom-border {
+        border-top: 1px solid rgba(118, 83, 143, 0.25);
+    }
+
+    .copyright {
+        color: var(--dark-purple);
+        font-weight: 500;
+    }
+
+</style>
+
+
+<footer class="custom-footer text-center pb-4">
+
+    <div class="container">
+
+        <!-- Logo -->
+        <div class="mb-4">
+
+            <div class="footer-logo-title">
+                رَوْنَقُنا 🌸
+            </div>
+
+            <div class="logo-divider"></div>
+
+            <div class="store-name">
+                RAWNAQUNA STORE
+            </div>
+
+        </div>
+
+
+        <!-- Slogan -->
+        <p class="footer-slogan mb-4">
+            أناقة تليق بكِ 🌸💜✨
+        </p>
+
+
+        <!-- Social Media -->
+        <div class="d-flex justify-content-center gap-3 mb-5">
+
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/"
+               target="_blank"
+               class="social-icon"
+               aria-label="Instagram">
+
+                <i class="bi bi-instagram"></i>
+
+            </a>
+
+
+            <!-- Facebook -->
+            <a href="ضعى_هنا_رابط_صفحة_الفيسبوك"
+               target="_blank"
+               class="social-icon"
+               aria-label="Facebook">
+
+                <i class="bi bi-facebook"></i>
+
+            </a>
+
+
+            <!-- WhatsApp -->
+            <a href="https://wa.me/201024800659"
+               target="_blank"
+               class="social-icon"
+               aria-label="WhatsApp">
+
+                <i class="bi bi-whatsapp"></i>
+
+            </a>
+
+        </div>
+
+
+        <!-- Contact -->
+        <div class="mb-5">
+
+            <h5 class="footer-heading mb-3">
+                تواصل معنا
+            </h5>
+
+
+            <!-- WhatsApp -->
+            <p class="mb-3">
+
+                <i class="bi bi-whatsapp"
+                   style="color: var(--gold-dark);">
+                </i>
+
+                واتساب:
+
+                <a href="https://wa.me/201024800659"
+                   target="_blank"
+                   class="footer-link"
+                   dir="ltr">
+
+                    +20 1024800659
+
+                </a>
+
+            </p>
+
+
+            <!-- Facebook -->
+            <p class="mb-0">
+
+                <i class="bi bi-facebook"
+                   style="color: var(--gold-dark);">
+                </i>
+
+                فيسبوك:
+
+                <a href="ضعى_هنا_رابط_صفحة_الفيسبوك"
+                   target="_blank"
+                   class="footer-link">
+
+                    صفحتنا على فيسبوك
+
+                </a>
+
+            </p>
+
+        </div>
+
+
+        <!-- Copyright -->
+        <div class="bottom-border pt-4">
+
+            <p class="copyright small mb-0">
+
+                © 2026 متجر رونقنا
+                — جميع الحقوق محفوظة
+
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+</body>
+
+</html>
+
